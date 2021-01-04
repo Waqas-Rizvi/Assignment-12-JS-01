@@ -366,7 +366,3 @@
 //"Chapter#12-13"
 
 //1. 
-var input = prompt("Enter a character")
-if(){
-    
-}
