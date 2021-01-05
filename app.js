@@ -366,3 +366,98 @@
 //"Chapter#12-13"
 
 //1. 
+// var ch = prompt("Enter any number or lower or upper case")
+// if (ch >= 'A' && ch <= 'Z') {
+//     alert("This is Upper case")
+// } if (ch >= 'a' && ch <= 'z') {
+//     alert("This is lower case")
+// } else {
+//     alert("This is number")
+// }
+
+//2.
+// var num = +prompt("Enter a number")
+// var num2 = +prompt("Enter another number")
+// if(num > num2){
+//     alert("Greater number is " + num)
+// } if(num2 > num){
+//     alert("Greater number is " + num2)
+// } if(num === num2){
+//     alert("Both integers are equal")
+// }
+
+//3.
+// var num = +prompt("Enter a number")
+// if(num > 0){
+//     alert("Your number is positive")
+// } if(num === 0){
+//     alert("Your number is zero")
+// } if(num < 0){
+//     alert("Your number is negative")
+// }
+
+//4.
+// function isVowel(argument) {
+//     var text;
+//     var argument = argument.toLowerCase();
+//     var vowels = (['a', 'e', 'i', 'o', 'u']);
+//     for (var i = 0; i <= vowels.length; i++) {
+//         if (argument != vowels[i]) {
+//             continue;
+//         }
+//         return true;
+//     }
+//     return false;
+// }
+
+// var char = prompt("Enter any alphabet");
+
+// if (isVowel(char)) {
+//     alert(char + " is a vowel");
+// } else {
+//     alert(char + " is not a vowel");
+// }
+
+//5.
+// var correct = "waqas"
+// var enter = prompt("Enter your password")
+// if (enter == 0) {
+//     alert("Please enter your password")
+// } else {
+//     if (enter == correct) {
+//         alert("Correct! The password you entered matches the original password")
+//     } else {
+//         alert("Incorrect password")
+//     }
+// }
+
+//6.
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+//     alert(greeting)
+// } else {
+//     greeting = "Good evening";
+//     alert(greeting)
+// }
+
+//7.
+// var time = +prompt("Enter your time in 24 hours format like 1900 for 7pm")
+// if (time >= 0000 && time < 1200) {
+//     alert("Good morning!")
+// }
+// if (time >= 1200 && time < 1700) {
+//     alert("Good afternoon!")
+// }
+// if (time >= 1700 && time < 2100) {
+//     alert("Good evening!")
+// }
+// if (time >= 2100 && time < 2459) {
+//     alert("Good night!")
+// } else { }
+
+
+//"Chapter#14-16"
+
+//1.
