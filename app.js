@@ -460,4 +460,84 @@
 
 //"Chapter#14-16"
 
-//1.
+//1, 2.
+// var name = []
+
+//3.
+//var string = ["waqas", "hamza", "saad"]
+
+//4.
+// var number = [10, 20, 30]
+
+//5.
+
+
+//6.
+// var mixed = [1, "waqas"]
+
+//7.
+// var qualification = ["", "SSC", "HSC", "BSC", "BS", "BCOM", "MS", "M.Phil", "PhD"]
+// // qualification.sort()
+// document.write("<h1>Qualifications:<br><br></h1>")
+// for(a = 1; a < qualification.length; a++){
+//     document.write("<h2>" + a + ") " + qualification[a] + "</h2>")
+// }
+
+//8.
+// var names = ["Waqas", "Hamza", "Saad"]
+// var scores = [320, 230, 480]
+// var percentage = [(320/500 * 100), (230/500 * 100), (480/500 * 100)]
+// for(a = 0; a < names.length; a++){
+//     document.write("<h2>Score of " + names[a] + " is " + scores[a] + ". Percentage: " + percentage[a] + "%" + "<br></h2>")
+// }
+
+//9.
+// var color = ["Red", "Yellow", "Green"]
+// alert(color)
+// var addbegin = prompt("What color you wants to add to the beginnig?")
+// color.unshift(addbegin)
+// alert(color)
+// var addend = prompt("What color you wants to add to the end?")
+// color.push(addend)
+// alert(color)
+// color.unshift("Blue", "Pink")
+// alert(color)
+// color.shift()
+// alert(color)
+// color.pop()
+// alert(color)
+// var addcolor = prompt("At which index you wants to add a color?")
+// var addname = prompt("Which color you add? Write name of color")
+// color.splice(addcolor, 0, addname)
+// alert(color)
+// var deletecolor = prompt("At which index you wants to delete a color?")
+// var howcolor = prompt("How many colors you want to delete?")
+// color.splice(deletecolor, howcolor)
+// alert(color)
+
+//10.
+// var scores = [320, 230, 480, 120]
+// document.write("Scores of Students : " + scores + "<br>")
+// scores.sort()
+// document.write("Ordered Scores of Students : " + scores)
+
+//11.
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"]
+// document.write("Cities list:<br>" + cities + "<br><br>")
+// var selected =  cities.splice(1, 3)
+// document.write("Selected cities list:<br>" + selected)
+
+//12.
+// var array = ["This", "is", "my", "cat"]
+// document.write("Array:<br>" + array + "<br><br>")
+// var join = array.join(" ")
+// document.write("String:<br>" + join)
+
+//13.
+
+
+//14.
+
+
+//15.
+
