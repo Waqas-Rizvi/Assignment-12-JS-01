@@ -16,12 +16,6 @@
 //5.
 // console.log("Hello... I can run JS through my web browser's console")
 
-//6.
-
-
-//7
-
-
 
 //"Chapter#02"
 
@@ -71,7 +65,9 @@
 // alert('I am ' + age + ' years old')
 
 //2. 
-
+// for(a=1; a<=14; a++){
+//     alert("You have visited this site " + a + " times")
+// }
 
 //3.
 // var birthyear = 1998;
@@ -84,7 +80,15 @@
 //"Chapter#04"
 
 //1.
+// var a = ("a"), b = ("b"), c = ("c")
+// alert(c)
 
+//2.
+// var a1 = ("a1"), b1 = ("b1"), c1 = ("c1"), d1 = ("d1"), e1 = ("e1")
+// var 1a = ("1a"), 1b = ("1b"), 1c = ("1c"), 1d = ("1d"), 1e = ("1e")
+
+//3.
+// document.write("<h1>Rules for naming JS variables</h1><br><br>Variable names can only contain a1b, a2b, a3b and a4b.<br>Variables must begin with a a, b or c.<br>Variable names are case sensitive.<br>Variable names should not be JS keywords.")
 
 
 //"Chapter#05"
@@ -114,7 +118,7 @@
 // document.write("Modulus of 5 and 3 is " + l)
 
 //3.
-// var value = ("Value after variable declaration is undefined")
+// var value = ("Value after variable declaration is:")
 // document.write(value + "<br />")
 // var initial = ("Initial value: ")
 // var inivalue = 5
@@ -228,6 +232,16 @@
 // }
 
 //6.
+// var subject1 = prompt("Enter first subject")
+// var subject2 = prompt("Enter second subject")
+// var subject3 = prompt("Enter third subject")
+// var total = 100
+// var obtain1 = +prompt("Enter first subject obtained marks")
+// var obtain2 = +prompt("Enter second subject obtained marks")
+// var obtain3 = +prompt("Enter third subject obtained marks")
+// var totalmark = total*3
+// var totalobtain = obtain1+obtain2+obtain3
+// document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr><tr><td>" + subject1 + "</td><td>" + total + "</td><td>" + obtain1 + "</td><td>" + (obtain1/total*100) + "%</td></tr><tr><td>" + subject2 + "</td><td>" + total + "</td><td>" + obtain2 + "</td><td>" + (obtain2/total*100) + "%</td></tr><tr><td>" + subject3 + "</td><td>" + total + "</td><td>" + obtain3 + "</td><td>" + (obtain3/total*100) + "%</td></tr><tr><td></td><td>" + totalmark + "</td><td>" + totalobtain + "</td><td>" + (totalobtain/totalmark*100) + "%</td></tr>")
 
 
 //"Chapter#09-11"
@@ -590,25 +604,52 @@
 // }
 
 //6.
-// document.write("<h1>Counting</h1><br>")
+// document.write("<h1>Counting:</h1><br>")
 // for(a = 1; a <= 15; a++){
 //     document.write(a + ",")
 // }
-// document.write("<h1>Reverse counting</h1><br>")
-// for(a = 15; a >= 1; a--){
+// document.write("<h1>Reverse counting:</h1><br>")
+// for(a = 10; a >= 1; a--){
 //     document.write(a + ",")
 // }
-// document.write("<h1>Even</h1><br>")
-// for(a = 0; a <= 20; a+2){
-//     document.write(a + ",")
+// document.write("<h1>Even:</h1><br>")
+// for(a = 0; a <= 10; a++){
+//     document.write((a+a) + ",")
 // }
-// document.write("<h1>Odd</h1><br>")
-// for(a = 1; a <= 19; a+2){
-//     document.write(a + ",")
-// }
-// document.write("<h1>Series</h1><br>")
-// for(a = 2; a <= 20; a+2){
-//     document.write(a + "k,")
+// document.write("<h1>Odd:</h1><br>")
+// // for(a = 0; a <= 3; a++){
+// //     for(b=1; b <= 4; b++)
+// //     document.write((a+b) + ",")
+// // }
+// document.write("<h1>Series:</h1><br>")
+// for(a = 1; a <= 10; a++){
+//     document.write((a+a) + "k,")
 // }
 
 //7.
+// var match = false
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var search = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?")
+// for(a = 0; a < items.length; a++){
+//     if(search === items [a]){
+//         match = true
+//         alert(search + " is availabe at index " + a + " in our bakery")
+//     }
+// }
+// if(match === false){
+//     alert("We are sorry. " + search + " is not available in our bakery")
+// }
+
+//8.
+// var num = [24,53,78,91,12];
+// Math.max(...num);
+
+//9.
+// var num = [24,53,78,91,12]
+// Math.min(...num)
+
+//10.
+// var num = 5
+// for(a=1; a<=20; a++){
+//     document.write((a*num + ", "))
+// }
