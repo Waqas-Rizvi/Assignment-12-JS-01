@@ -446,14 +446,11 @@
 // var time = +prompt("Enter your time in 24 hours format like 1900 for 7pm")
 // if (time >= 0000 && time < 1200) {
 //     alert("Good morning!")
-// }
-// if (time >= 1200 && time < 1700) {
+// } else if (time >= 1200 && time < 1700) {
 //     alert("Good afternoon!")
-// }
-// if (time >= 1700 && time < 2100) {
+// } else if (time >= 1700 && time < 2100) {
 //     alert("Good evening!")
-// }
-// if (time >= 2100 && time < 2459) {
+// } else if (time >= 2100 && time < 2459) {
 //     alert("Good night!")
 // } else { }
 
@@ -534,10 +531,84 @@
 // document.write("String:<br>" + join)
 
 //13.
-
+// var devices = ["keyboard", "mouse", "printer", "monitor"]
+// document.write("Decices:<br>" + devices + "<br><br>")
+// var first = devices.splice(0,1)
+// document.write("Out:<br>" + first + "<br>")
+// var second = devices.splice(0,1)
+// document.write("Out:<br>" + second + "<br>")
+// var third = devices.splice(0,1)
+// document.write("Out:<br>" + third + "<br>")
+// var fourth = devices.splice(0,1)
+// document.write("Out:<br>" + fourth + "<br>")
 
 //14.
-
+// var devices = ["keyboard", "mouse", "printer", "monitor"]
+// document.write("Decices:<br>" + devices + "<br><br>")
+// var first = devices.splice(3,1)
+// document.write("Out:<br>" + first + "<br>")
+// var second = devices.splice(2,1)
+// document.write("Out:<br>" + second + "<br>")
+// var third = devices.splice(1,1)
+// document.write("Out:<br>" + third + "<br>")
+// var fourth = devices.splice(0,1)
+// document.write("Out:<br>" + fourth + "<br>")
 
 //15.
 
+
+//"Chapter17-20"
+
+//1.
+// var multiarray = [[], [], []]
+
+//2.
+// var multiarray = [["0 1 2 3"], ["1 0 1 2"], ["2 1 0 1"]]
+// document.write("<h1>" + multiarray[0] + "<br>" + multiarray[1] + "<br>" + multiarray[2] + "</h1>")
+
+//3.
+// for(a = 1; a <= 10; a++){
+//     document.write(a + "<br>")
+// }
+
+//4.
+// var number = +prompt("Enter a number to show its multiplication table")
+// var lenght = +prompt("Enter length mulitplication table")
+// document.write("Multiplication table of " + number + " Length " + lenght + "<br><br>")
+// for(a = 1; a <= lenght; a++){
+//     document.write(number + "x" + a + "=" + (number*a) + "<br>")
+// }
+
+//5.
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// for(a = 0; a < fruits.length; a++){
+//     document.write(fruits[a] + "<br>")
+// }
+// document.write("<br>")
+// for(a = 0; a <fruits.length; a++){
+//     document.write("Element at index " + a + " is " + fruits[a] + "<br>")
+// }
+
+//6.
+// document.write("<h1>Counting</h1><br>")
+// for(a = 1; a <= 15; a++){
+//     document.write(a + ",")
+// }
+// document.write("<h1>Reverse counting</h1><br>")
+// for(a = 15; a >= 1; a--){
+//     document.write(a + ",")
+// }
+// document.write("<h1>Even</h1><br>")
+// for(a = 0; a <= 20; a+2){
+//     document.write(a + ",")
+// }
+// document.write("<h1>Odd</h1><br>")
+// for(a = 1; a <= 19; a+2){
+//     document.write(a + ",")
+// }
+// document.write("<h1>Series</h1><br>")
+// for(a = 2; a <= 20; a+2){
+//     document.write(a + "k,")
+// }
+
+//7.
