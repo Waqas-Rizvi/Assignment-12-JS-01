@@ -1,3 +1,5 @@
+//"Assignment#12"
+
 //"Chapter#01"
 
 //1. 
@@ -653,3 +655,10 @@
 // for(a=1; a<=20; a++){
 //     document.write((a*num + ", "))
 // }
+
+
+//"Assignment#13"
+
+//"Changing Case"
+
+//1.
