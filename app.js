@@ -662,3 +662,153 @@
 //"Changing Case"
 
 //1.
+// var name = prompt("Enter your name", "Your name")
+// name = name.toUpperCase()
+// alert(name)
+
+//2.
+// var name = prompt("Enter your name", "Your name")
+// var first = name.slice(0,1)
+// var other = name.slice(1)
+// first = first.toUpperCase()
+// other = other.toLowerCase()
+// var combine = first + other
+// alert(combine)
+
+
+//"String: measuring length and extracting parts"
+
+//1.
+// var mobile = prompt("Enter your favorite mobile phone model", "Enter model")
+// var lenth = mobile.length
+// alert(lenth)
+
+//2.
+// var name = prompt("Enter your name", "Enter name")
+// var length = name.length
+// var last = name.slice((length-1), length)
+// alert(last)
+
+
+//"Strings: finding segments"
+
+//1.
+// var name = ("Pakistani")
+// var index = name.indexOf("n")
+// alert("The index number of 'n' in the word 'Pakistani' is " + index)
+
+//2.
+// var name = prompt("Enter your username")
+// var stop = name.indexOf(".")
+// var coma = name.indexOf(",")
+// var at = name.indexOf("@")
+// var exclaim = name.indexOf("!")
+// if (stop !== -1 || coma !== -1 || at !== -1 || exclaim !== -1) {
+//     prompt("Enter a valid username")
+// } else { }
+
+//3.
+// var text = "The quick brown for jumps over the lazy dog"
+// text = text.toLowerCase()
+// var index = text.lastIndexOf("the")
+// alert(index)
+
+
+//"Strings: finding a character at a location"
+
+//1.
+// var word = "Pakistani"
+// var locat = word.slice(3,4)
+// alert(locat)
+
+
+//"Strings: replacing characters"
+
+//1.
+// var text = "Hyderabad"
+// var replace = text.replace("Hyder", "Islam")
+// alert(replace)
+
+//2.
+// var message = "Ali and Sami are best friends. They play cricket and football together"
+// var change = message.replace(/and/g, "&")
+// alert(change)
+
+
+//"Rounding numbers"
+
+//1.
+// var num = prompt("Enter a positive number")
+// var round = Math.round(num)
+// var floor = Math.floor(num)
+// var ceil = Math.ceil(num)
+// alert("Round of " + round)
+// alert("Floor " + floor)
+// alert("Ceil " + ceil)
+
+
+//2.
+// var num = prompt("Enter a negative number")
+// var round = Math.round(num)
+// var floor = Math.floor(num)
+// var ceil = Math.ceil(num)
+// alert("Round of " + round)
+// alert("Floor " + floor)
+// alert("Ceil " + ceil)
+
+
+//"Generating random numbers"
+
+//1.
+// var num = Math.random()
+// var numm = num * 6
+// var round = Math.ceil(numm)
+// alert(round)
+
+//2.
+// var num = Math.random()
+// var numm = num * 2
+// var round = Math.ceil(numm)
+// alert(round)
+
+//3.
+// var num = Math.random()
+// var numm = num * 10
+// var round = Math.ceil(numm)
+// var enter = +prompt("Guess secret number", "Enter a number")
+// if(enter === round){
+//     alert("Congratulations! Your guess a right number")
+// } else {
+//     alert("Sorry! You guess a wrong number")
+// }
+
+
+//"Converting strings to integers and decimals"
+
+//1.
+// var weight = prompt("Enter your weight")
+// var parse = parseInt(weight)
+// alert(weight)
+// alert(weight + "kgs")
+// alert(weight + "kilograms")
+
+
+//"Converting strings to numbers, numbers to strings"
+
+//1.
+// var string = "472"
+// var num = Number(string)
+// document.write("Value: " + string + "<br>Type: String<br>Value: " + num + "<br>Type: Number")
+
+//2.
+// var num = 35.36
+// var string = num.toString()
+// alert(string)
+
+
+//"Controllong the length of decimals"
+
+//1.
+// var percentage = 30 / 45 * 100
+// var decimal = percentage.toFixed(2)
+// alert(decimal)
