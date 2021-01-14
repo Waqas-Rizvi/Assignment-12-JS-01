@@ -710,8 +710,8 @@
 //3.
 // var text = "The quick brown for jumps over the lazy dog"
 // text = text.toLowerCase()
-// var index = text.lastIndexOf("the")
-// alert(index)
+// var count = text.match(/the/g).length
+// alert(count)
 
 
 //"Strings: finding a character at a location"
@@ -802,7 +802,7 @@
 
 //2.
 // var num = 35.36
-// var string = num.toString()
+// var string = num.toString().replace(".", "")
 // alert(string)
 
 
