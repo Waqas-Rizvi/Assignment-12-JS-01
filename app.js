@@ -573,7 +573,7 @@
 //15.
 
 
-//"Chapter17-20"
+//"Chapter#17-20"
 
 //1.
 // var multiarray = [[], [], []]
@@ -812,3 +812,10 @@
 // var percentage = 30 / 45 * 100
 // var decimal = percentage.toFixed(2)
 // alert(decimal)
+
+
+//"Assignment#14"
+
+//"Chapter#31-34"
+
+//1.
