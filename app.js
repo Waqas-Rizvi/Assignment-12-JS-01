@@ -819,3 +819,285 @@
 //"Chapter#31-34"
 
 //1.
+// var current = new Date()
+// alert(current)
+
+//2.
+// var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+// var date = new Date()
+// var month = date.getMonth()
+// var monthname = months[month]
+// alert("Current month: " + monthname)
+
+//3.
+// var days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"]
+// var date = new Date()
+// var day = date.getDay()
+// var dayname = days[day]
+// alert("Today is " + dayname)
+
+//4.
+// var days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"]
+// var date = new Date()
+// var day = date.getDay()
+// var dayname = days[day]
+// if(dayname == "Sun" || dayname == "Sat"){
+//     alert("It's Fun day")
+// } 
+
+//5.
+// var date = new Date()
+// var dat = date.getDate()
+// if(dat <= 15){
+//     alert("First fifteen days of the month")
+// } else {
+//     alert("Last days of the month")
+// }
+
+//6.
+// var date = new Date()
+// var milliseconds = date.getTime()
+// alert("Current Date: " + date + "\nElapsed milliseconds since january 1, 1970: " + milliseconds)
+
+//7.
+// var date = new Date()
+// var hours = date.getHours()
+// if(hours <= 12){
+//     alert("It's AM")
+// } else {
+//     alert("It's PM")
+// }
+
+//8.
+// var LaterDate = new Date()
+// LaterDate.setFullYear(2020)
+// LaterDate.setMonth(11)
+// LaterDate.setDate(31)
+// LaterDate.setHours(00)
+// LaterDate.setMinutes(00)
+// LaterDate.setSeconds(00)
+// alert("Later date: " + LaterDate)
+
+//9.
+
+
+//10.
+// var date = new Date()
+// var beginnig = new Date()
+// beginnig.setDate(1)
+// var sec = date.getSeconds()
+// alert(sec)
+// var beginngsec = beginnig.getSeconds
+// var total = sec - beginnigsec
+// var sec = date.getSeconds()
+// var beginsec = year.getSeconds()
+// var total = sec - beginsec
+
+//11.
+// var date = new Date()
+
+
+//12.
+
+
+//13.
+// var age = prompt("Enter your age")
+// var date = new Date()
+// var year = date.getFullYear()
+// var total = year - age
+// alert(total)
+
+//14.
+// var name = "Waqas"
+// var date = new Date()
+// var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+// var month = date.getMonth()
+// var monthname = months[month]
+// var units = 410
+// var charge = 16
+// var late = 350
+// var netamount = units * charge
+// var due = netamount + late
+// document.write("<h1>K-Electric Bill</h1><br>Customer Name: " + name + "<br>Month: " + monthname + "<br>Number of units: " + units + "<br>Charge per unit: " + charge + "<br><br>Net amount payable (within due date): " + netamount + "<br>Late payment subcharge: " + late + "<br>Gross amount payable (after due date): " + due)
+
+
+//"Chapter#35-38"
+
+//1.
+// function CurrentDate(){
+//     var date = new Date()
+//     alert(date)
+// }
+// CurrentDate()
+
+//2.
+// function greeting(){
+//     var first = prompt("Enter your First name")
+//     var last = prompt("Enter your Last name")
+//     alert("Hello! " + first + " " + last)
+// }
+// greeting()
+
+//3.
+// function add(){
+//     var first = +prompt("Enter first number")
+//     var second = +prompt("Enter second number")
+//     alert("Sum of these two numbers is: " + (first + second))
+// }
+// add()
+
+//4.
+// function calculator() {
+//     var first = +prompt("Enter first number")
+//     var second = +prompt("Enter second number")
+//     var operator = prompt("Enter operator")
+//     if (operator == "+") {
+//         alert(first + second)
+//     } if (operator == "-") {
+//         alert(first - second)
+//     } if (operator == "*") {
+//         alert(first * second)
+//     } if (operator == "/") {
+//         alert(first / second)
+//     } else { }
+// }
+// calculator()
+
+//5.
+// function square(){
+//     var argument = +prompt("Enter a number")
+//     alert(argument * argument)
+// }
+// square()
+
+//6.
+
+
+//7.
+// function counting(){
+//     var start = +prompt("Enter start number")
+//     var end = +prompt("Enter end number")
+//     for(a = start; a <= end; a++){
+//         document.write(a + "<br>")
+//     }
+// }
+// counting()
+
+//8.
+// function inner() {
+//     var base = +prompt("Enter base value")
+//     var perpendicular = +prompt("Enter perpendicular value")
+//     var hypo = ((base * base) + (perpendicular * perpendicular))
+//     return hypo
+// }
+// function outer() {
+//     var square = Math.sqrt(inner())
+//     document.write("Hypotenuse is " + square)
+// }
+// outer()
+
+//9.
+//i.
+// function area(){
+//     alert(5 * 5)
+// }
+// area()
+//ii.
+// function area(height, width){
+//     alert(height * width)
+// }
+// area(5,5)
+
+//10.
+
+
+//11.
+// function convert(text){
+//     var arr = text.split(" ")
+//     for(d = 0; d < arr.length; d++){
+//         var a = arr[d].slice(0,1)
+//         var c = arr[d].slice(1)
+//         var b = a.toUpperCase()
+//         document.write(b + c + " ")
+//     }
+// }
+// convert("the quick brown fox")
+
+//12.
+// function longestword(text) {
+//     var arr = text.split(" ")
+//     var sort = arr.sort(
+//         (sortA, sortB) => {
+//             return sortB.length - sortA.length
+//         }
+//     )
+//     document.write(sort[0])
+// }
+// longestword("Web Development Tutorial")
+
+//13.
+// function CountTheNumber(string,letter){
+//     var a = string.split(letter)
+//     var b = a.length
+//     alert(b-1)
+// }
+// CountTheNumber("JSResourceS.com", "o")
+
+//14.
+
+
+
+//"Chapter#38-42"
+
+//1.
+// function power(a,b){
+//     var power = Math.pow(a,b)
+//     alert(power)
+// }
+// power(+prompt(), +prompt())
+
+//2.
+// function leapyear(year){
+//     var leap = year % 4
+//     if(leap === 0){
+//         alert("The year is a Leap year")
+//     } else {
+//         alert("The year is not a leap year")
+//     }
+// }
+// leapyear(+prompt())
+
+//3.
+// function lenght(){
+//     a = 5
+//     b = 6
+//     c = 7
+//     d = a + b + c
+//     return d
+// }
+// function area(){
+//     s = lenght()/2
+//     ar = s*(s-a)*(s-b)*(s-c)
+//     alert(ar)
+// }
+// area()
+
+//4.
+// function main(){
+//     var firstsub = 80
+//     var secondsub = 80
+//     var thirdsub = 80
+//     var total = firstsub + secondsub + thirdsub
+//     return total
+// }
+// function average(){
+//     var avrg = main()/3
+//     return avrg
+// }
+// function percentage(){
+//     var per = main()/300*100
+//     return per
+// }
+// document.write("Average is: " + average() + "<br>Percentage is:  " + percentage() + "%")
+
+//5.
