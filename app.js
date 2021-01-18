@@ -879,26 +879,41 @@
 // alert("Later date: " + LaterDate)
 
 //9.
-
+// var Ramazan = new Date("June 18, 2015")
+// var start = new Date("Jan 01, 2015")
+// var getR = Ramazan.getTime()
+// var getS = start.getTime()
+// var substract = getR - getS
+// var calculate = substract/(1000*60*60*24)
+// alert(calculate + " days have passed since 1st Ramadan, 2015")
 
 //10.
-// var date = new Date()
-// var beginnig = new Date()
-// beginnig.setDate(1)
-// var sec = date.getSeconds()
-// alert(sec)
-// var beginngsec = beginnig.getSeconds
-// var total = sec - beginnigsec
-// var sec = date.getSeconds()
-// var beginsec = year.getSeconds()
-// var total = sec - beginsec
+// var end = new Date("Dec 05, 2015 22:50:16")
+// var start = new Date("Jan 01, 2015")
+// var getE = end.getTime()
+// var getS = start.getTime()
+// var substract = getE - getS
+// var calculate = substract/(1000*60)
+// var ceil = Math.ceil(calculate)
+// document.write("On reference date " + end + ",<br>" + ceil + "seconds had passed since beginning of 2015")
 
 //11.
 // var date = new Date()
-
+// var get = date.getTime()
+// var hour = date.getHours()
+// var hours = hour -1
+// var ago = new Date()
+// ago.setHours(hours)
+// document.write("current date " + date + "<br>1 hour ago, it was " + ago)
 
 //12.
-
+// var date = new Date()
+// var get = date.getTime()
+// var backyear = date.getFullYear()
+// var agoyear = backyear - 100
+// var ago = new Date()
+// ago.setFullYear(agoyear)
+// alert(ago)
 
 //13.
 // var age = prompt("Enter your age")
@@ -971,7 +986,10 @@
 // square()
 
 //6.
-
+// for(a = num; a >= 1; a--){
+//     b = num*a
+//     document.write(b + "<br>")
+// }
 
 //7.
 // function counting(){
