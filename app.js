@@ -1119,3 +1119,17 @@
 // document.write("Average is: " + average() + "<br>Percentage is:  " + percentage() + "%")
 
 //5.
+// function index(text, word){
+//     var find = text.indexOf(word)
+//     alert(find)
+// }
+// index("waqas", "w")
+
+//6.
+// function delet(text){
+//     var vowels = text.replace(/a/g, "").replace(/e/g, "").replace(/i/g, "").replace(/o/g, "").replace(/u/g, "").replace(/A/g, "").replace(/E/g, "").replace(/I/g, "").replace(/O/g, "").replace(/U/g, "")
+//     document.write("Original text<br>" + "This is a free online calculator which counts the number of characters or letters in a text, useful for your tweets on Twitter, as well as a multitude of other applications.<br>" + "Delete all vowels<br>" + vowels)
+// }
+// delet("This is a free online calculator which counts the number of characters or letters in a text, useful for your tweets on Twitter, as well as a multitude of other applications.")
+
+//7.
